@@ -1,0 +1,11 @@
+Change the url in gather_ios_app_info.rb to whatever the url you generated from http://itunes.apple.com/rss/generator/.
+And then just run the script, you'll get what you want.
+
+Application data is written into the yml file in the type of AppInfo class which is defined in the script.
+There's another script named read_yaml.rb. Read the code and just run it after you gathered the data, you'll see how to use the yaml file and getting data from it.
+
+That's it.
+
+Cheers.
+
+--Still
